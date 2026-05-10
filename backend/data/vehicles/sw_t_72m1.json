@@ -1,0 +1,94 @@
+{
+  "vehicleId": "sw_t_72m1",
+  "displayName": "T-72M1",
+  "nation": "sweden",
+  "operatorCountry": "country_finland",
+  "type": "tank",
+  "branch": "army",
+  "rank": 6,
+  "battleRating": {
+    "arcade": 9.3,
+    "realistic": 9.3,
+    "simulator": 9.3
+  },
+  "shopArmor": {
+    "hull": [60, 19, 46],
+    "turret": [280, 115, 60]
+  },
+  "modelId": "t_72m1",
+  "damageParts": {
+    "hull": {
+      "armorThickness": 60.0,
+      "armorClass": "RHA_tank_modern",
+      "variableThickness": true,
+      "genericArmorQuality": 1.0
+    },
+    "hull_composite_armor": {
+      "_isGroup": true,
+      "armorClass": "RHAHH_tank_modern",
+      "children": {
+        "ex_armor_05_dm": {
+          "armorThickness": 16.0,
+          "armorClass": "RHAHH_tank_modern",
+          "hidableInViewer": true
+        },
+        "superstructure_front_dm": {
+          "armorThickness": 60.0,
+          "armorClass": "RHA_tank_modern",
+          "variableThickness": true,
+          "genericArmorQuality": 1.0
+        },
+        "composite_armor_hull_01_dm": {
+          "armorThickness": 100.0,
+          "armorClass": "tank_textolite",
+          "hidableInXrayViewer": true
+        }
+      }
+    },
+    "turret": {
+      "armorThickness": 65.0,
+      "armorClass": "RHA_tank_modern",
+      "variableThickness": true,
+      "genericArmorQuality": 1.0
+    },
+    "turret_composite_armor": {
+      "_isGroup": true,
+      "children": {
+        "composite_armor_turret_01_dm": {
+          "armorThickness": 115.0,
+          "armorClass": "t_80b_composite_armor"
+        }
+      }
+    },
+    "turret_inner": {
+      "armorThickness": 45.0,
+      "armorClass": "RHA_tank_modern"
+    },
+    "tracks_l": { "armorThickness": 20.0, "armorClass": "tank_traks" },
+    "tracks_r": { "armorThickness": 20.0, "armorClass": "tank_traks" },
+    "ammo_dm":  { "armorThickness": 0.0, "_isModule": true },
+    "fuel_tank_dm": { "armorThickness": 0.0, "_isModule": true },
+    "crew_driver_dm": { "armorThickness": 0.0, "_isCrew": true },
+    "crew_gunner_dm": { "armorThickness": 0.0, "_isCrew": true },
+    "crew_commander_dm": { "armorThickness": 0.0, "_isCrew": true }
+  },
+  "xrayViewerData": {
+    "armorArrayHull": {
+      "xrayDmPart": "composite_armor_hull_01_dm",
+      "layers": [
+        { "dmPart": "superstructure_front_dm", "xrayTextThickness": 60 },
+        { "dmPart": "composite_armor_hull_01_dm", "xrayTextThickness": 50 }
+      ]
+    },
+    "armorArrayTurret": {
+      "xrayDmPart": "composite_armor_turret_01_dm",
+      "titleLoc": "CHA_tank",
+      "layers": [
+        { "dmPart": "turret", "xrayTextThickness": 65 },
+        { "dmPart": "composite_armor_turret_01_dm", "xrayTextThickness": 150 },
+        { "dmPart": "turret_inner", "xrayTextThickness": 45 }
+      ]
+    }
+  },
+  "shells": ["2a46m"]
+}

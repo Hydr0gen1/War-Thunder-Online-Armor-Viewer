@@ -1,0 +1,12 @@
+{
+  "RHA_tank":              { "ke": 1.0,  "heat": 1.0  },
+  "RHA_tank_modern":       { "ke": 1.0,  "heat": 1.0  },
+  "RHAHH_tank_modern":     { "ke": 1.0,  "heat": 1.0  },
+  "CHA_tank":              { "ke": 0.94, "heat": 0.94 },
+  "CHA_tank_modern":       { "ke": 0.94, "heat": 0.94 },
+  "tank_textolite":        { "ke": 0.44, "heat": 0.44 },
+  "t_80b_composite_armor": { "ke": 0.07, "heat": 0.30 },
+  "ERA_tank":              { "ke": 0.0,  "heat": 0.0  },
+  "rubber_tank":           { "ke": 0.05, "heat": 0.05 },
+  "tank_traks":            { "ke": 0.7,  "heat": 0.2  }
+}

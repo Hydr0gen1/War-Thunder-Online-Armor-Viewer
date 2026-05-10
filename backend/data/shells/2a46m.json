@@ -1,0 +1,41 @@
+{
+  "cannonId": "2a46m",
+  "caliber_mm": 125,
+  "rounds": [
+    {
+      "bulletName": "125mm_3bk_12m",
+      "bulletType": "heat_fs_tank",
+      "displayName": "3BK12M",
+      "mass_kg": 19.0,
+      "explosiveMass_kg": 1.65,
+      "penetration_flat_mm": 440,
+      "penCurve": null
+    },
+    {
+      "bulletName": "125mm_3bm42",
+      "bulletType": "apds_fs_tungsten_carbide",
+      "displayName": "3BM42 Mango",
+      "mass_kg": 4.85,
+      "penetration_flat_mm": null,
+      "penCurve": [
+        { "range_m": 0,    "pen_mm": 457 },
+        { "range_m": 100,  "pen_mm": 454 },
+        { "range_m": 500,  "pen_mm": 445 },
+        { "range_m": 1000, "pen_mm": 431 },
+        { "range_m": 2000, "pen_mm": 406 },
+        { "range_m": 3000, "pen_mm": 380 }
+      ],
+      "demarreK": 2530,
+      "demarreSpeedPow": 1.43,
+      "demarreMassPow": 0.71
+    },
+    {
+      "bulletName": "125mm_3of26",
+      "bulletType": "he_frag_tank",
+      "displayName": "3OF26",
+      "mass_kg": 23.0,
+      "penetration_flat_mm": 36,
+      "penCurve": null
+    }
+  ]
+}
